@@ -38,7 +38,9 @@ Save the .httr-oauth file to a location other than the working directory so you 
 
 In your console, submit these commands:
 
+
 options("googlesheets.httr_oauth_cache" = "gs_auth")
+
 gs_auth()
 
 You should see a gs_auth file in the working directory.
