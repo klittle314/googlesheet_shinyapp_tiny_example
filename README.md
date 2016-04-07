@@ -8,6 +8,7 @@ https://docs.google.com/spreadsheets/d/1QhPtrsukBCVZJ-t-nSxCLR1J2OCX-yVReAGVYXIz
 
 To set up and test for failure, open the Shiny app in RStudio, install googlesheets package and in your console submit these commands
 library(googlesheets)
+
 gs_auth()
 
 Grant permission to googlesheets to operate on your behalf with Google Sheets and Google Drive.
