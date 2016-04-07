@@ -7,6 +7,7 @@ You need to have a Google Sheet like the example here in your Google Drive:
 https://docs.google.com/spreadsheets/d/1QhPtrsukBCVZJ-t-nSxCLR1J2OCX-yVReAGVYXIzexM/edit?usp=sharing
 
 To set up and test for failure, open the Shiny app in RStudio, install googlesheets package and in your console submit these commands
+
 library(googlesheets)
 
 gs_auth()
