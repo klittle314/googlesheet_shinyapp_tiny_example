@@ -33,6 +33,7 @@ You can get an "Expected content-type error" on your local system if you do not 
 However, earlier in 2016, evidently it was possible to publish .httr-oauth files to shinyapps.io server as I had two apps that were functional.
 
 CASE 2   Code Suggestion from MarkEdmondson1234
+
 Save the .httr-oauth file to a location other than the working directory so you can play more without starting over.  Comment out the lines 42-62 and uncomment the lines 11-39. 
 
 In your console, submit these commands:
